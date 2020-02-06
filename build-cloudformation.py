@@ -121,7 +121,7 @@ BuildEnvironment = codebuild.Environment(
 )
 
 BuildSource = codebuild.Source(
-    Location="https://github.com/jasonumiker/nginx-codebuild",
+    Location="https://github.com/jfgordon2/nginx-codebuild",
     Type="GITHUB"
 )
 
